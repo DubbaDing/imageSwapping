@@ -1,0 +1,13 @@
+.thumbnail{
+    height: 100px;
+}
+#thumbnailContainer{
+    width: auto;
+    text-align: center;
+}
+#viewedImage{
+    height: 300px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}

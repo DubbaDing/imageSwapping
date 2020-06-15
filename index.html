@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Selector</title>
+
+        <!-- Attached CSS -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <!--Large image -->
+        <div>
+            <img src="img/junk.jpeg" id="viewedImage" alt="Junk Car" />
+        </div>
+
+        <!-- Thumbnails-->
+        <div id="thumbnailContainer">
+            <img src="img/junk.jpeg" class="thumbnail" alt="Junk Car" onclick="changeImg('img/junk.jpeg')" />
+            <img src="img/mopar.jpeg" class="thumbnail" alt="Mopar" onclick="changeImg('img/mopar.jpeg')"  />
+            <img src="img/lambo.jpeg" class="thumbnail" alt="Lambo" onclick="changeImg('img/lambo.jpeg')" />
+            <img src="img/funny.jpeg" class="thumbnail" alt="Funny Car" onclick="changeImg('img/funny.jpeg')" />
+        </div>
+
+        <!-- JS -->
+        <script src="scripts.js"></script>
+    </body>
+</html>
